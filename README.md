@@ -1,70 +1,38 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Nonprofit Navigator</h1>
+<hr><p>Nonprofit Navigator is a website that allows users to search for nonprofit organizations in their area.</p><h2>General Information</h2>
+<hr><ul>
+<li>This specific map in Nonprofit Navigator was focused on nonprofit organizations in the DFW area in Texas.</li>
+</ul><ul>
+<li>I designed the Nonprofit Navigator React website to help users find different types of nonprofit organizations in their area.</li>
+</ul><h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>React</li>
+</ul><h2>Setup</h2>
+<hr><p>Users must install the  @react-googlep-maps/api npm package before they begin this project.</p><h5>Steps</h5><ul>
+<li>Install this package by typing npm i @react-google-maps/api</li>
+</ul><h2>Usage</h2>
+<hr><p>Users can use this map to identify nonprofit organizations in the DFW community.</p><h2>Project Status</h2>
+<hr><p>The fundamental steps of the project are finished. I plan to add layers to the map to help people isolate and distinguish the type of nonprofit organizations that are available on the map.</p><h2>Improvements</h2>
+<hr><ul>
+<li>I will work on adding custom markers for each type of nonprofit. For instance, blue markers could represent animal shelters and green markers could represent food banks.</li>
+</ul><ul>
+<li>I will make the map more accessible by incorporating additional features.</li>
+</ul><h2>Features that can be added</h2>
+<hr><ul>
+<li>I will add a legend to help users navigate the type of nonprofit organizations each color marker represents.</li>
+</ul><ul>
+<li>I will add a search bar to help users find other features on the Nonprofit Navigator map.</li>
+</ul><ul>
+<li>I will add more accessible features to Nonprofit Navigator.</li>
+</ul><h2>Acknowledgement</h2>
+<hr><ul>
+<li>This project was inspired by questions from family and friends who asked me about finding nonprofit resources in their communities.</li>
+</ul><ul>
+<li>Prathamesh Gunde's articles about integrating Google maps and React were helpful resources.</li>
+</ul>
